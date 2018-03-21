@@ -1,0 +1,15 @@
+https://blog.ccjeng.com/2015/08/Gulp.html
+
+https://blog.ccjeng.com/2015/08/Gulp.html#disqus_thread
+
+https://ithelp.ithome.com.tw/articles/10185517
+
+https://ithelp.ithome.com.tw/articles/10185420
+
+https://kejyuntw.gitbooks.io/gulp-learning-notes/plguins/Tool/Plugins-Tool-browser-sync.html
+
+Gulp 入門教學 - 安裝 Gulp.js
+http://abgne.tw/web/gulp/gulp-tuts-install-gulp-js.html
+
+sequentially
+https://stackoverflow.com/questions/22824546/how-to-run-gulp-tasks-sequentially-one-after-the-other
