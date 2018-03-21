@@ -1,9 +1,9 @@
 # gulp-clear-html
 
--用於純靜態的網頁處理項目
--壓縮css, js, images, html
--產生dist包
--交付dist包內的產品
+- 用於純靜態的網頁處理項目
+- 壓縮css, js, images, html
+- 產生dist包
+- 交付dist包內的產品
 ---
 
 ## 安裝方式
@@ -38,3 +38,4 @@
     //清除dist包內容
     $> gulp clean
     ```
+---
