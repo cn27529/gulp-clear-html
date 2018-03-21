@@ -7,7 +7,7 @@ var sass = require('gulp-sass');
 var connect = require('gulp-connect');
 
 var webserver = require('gulp-webserver');
-//var browsersync = require('browser-sync').create();
+var browsersync = require('browser-sync').create();
 
 var app = {
     src: 'app',
@@ -19,28 +19,23 @@ var app = {
     images: 'app/images/*.*'
 }
 
-// 監看工作
+// 監看異動的task
 gulp.task('watch', function () {
 
-    // gulp.watch("app/css/*.css", ['css']); //有異動就執行task
-    // gulp.watch("app/scripts/*.js", ['js']);
-    // gulp.watch("app/images/*.*", ['images']);
-    // gulp.watch("app/*.html", ['html']).on('change', browsersync.reload);
+    gulp.watch("app/css/*.css", ['css']); //有異動就執行task
+    gulp.watch("app/scripts/*.js", ['js']);
+    gulp.watch("app/images/*.*", ['images']);
+    gulp.watch("app/*.html", ['html']).on('change', browsersync.reload);
 
 });
 
-// //https://github.com/OverZealous/run-sequence
-// var sequence = require('run-sequence');
-// // /* ... */
-// // gulp.task('develop', function (done) {
-// //     sequence('clean', 'coffee', done);
-// // });
-// gulp.task('default', function (done) {
-//     //console.log('hello this is my first gulp task');
-//     sequence('clean', 'build', done);
-// });
+gulp.task('run', ['build'], function () {
+    console.log('runing....');
+    gulp.start('server');
+});
 
 gulp.task('server', ['watch'], function () {
+
     gulp
         .src('./dist')
         .pipe(webserver({
@@ -53,12 +48,13 @@ gulp.task('server', ['watch'], function () {
             open: true,
             port: 8080
         }));
+
 });
 
 gulp.task('images', function () {
     gulp
         .src(app.images)
-        .pipe(gulp.dest(app.dist+'/images'))
+        .pipe(gulp.dest(app.dist + '/images'))
     //.pipe(connect.reload());
 });
 
@@ -101,12 +97,12 @@ gulp.task('build', ['clean'], function () {
     gulp.start('dist');
 });
 
-gulp.task('dist', ['css', 'js', 'html','images'], function () {
+gulp.task('dist', ['css', 'js', 'html', 'images'], function () {
     console.log('created dist....');
 });
 
 //清除dist資料
-gulp.task('clean' , function () {
+gulp.task('clean', function () {
 
     var js = app.dist + '/scripts';
     var css = app.dist + '/css';
@@ -119,6 +115,3 @@ gulp.task('clean' , function () {
     //console.log('cleaned....');
 
 });
-
-
-
