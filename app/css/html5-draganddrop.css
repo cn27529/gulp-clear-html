@@ -1,0 +1,14 @@
+.drapbox {
+    width: auto;
+    height: auto;
+    padding: 20px;
+    border: 1px dashed #888888;
+    margin: 20px;
+    display: inline-block;
+}
+
+.drapboxlist {
+    margin: auto;
+    border: 1px solid #888888;
+    height: 250px;
+}

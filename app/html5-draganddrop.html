@@ -1,0 +1,46 @@
+<!--https://www.w3cschool.cn/tryrun/showhtml/tryhtml5_draganddrop -->
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>html5-drapanddrop</title>
+    <link rel="stylesheet" href="./css/html5-draganddrop.css">
+    <script>
+        var draganddrop = {
+            allowDrop: function (ev) {
+                ev.preventDefault();
+            },
+
+            drag: function (ev) {
+                ev.dataTransfer.setData("Text", ev.target.id);
+            },
+
+            drop: function (ev) {
+                ev.preventDefault();
+                var data = ev.dataTransfer.getData("Text");
+                ev.target.appendChild(document.getElementById(data));
+            }
+        }
+    </script>
+
+</head>
+
+<body>
+
+    <p>拖动 w3cschool.cn 图片到矩形框中:</p>
+    <h1>html5-drapanddrop/h1>
+
+        <div class="drapboxlist">
+            <div class="drapbox" id="div1" ondrop="draganddrop.drop(event)" ondragover="draganddrop.allowDrop(event)"></div>
+            <div class="drapbox" id="div2" ondrop="draganddrop.drop(event)" ondragover="draganddrop.allowDrop(event)">
+
+            </div>
+        </div>
+
+        <img id="drag1" src="/images/小叮噹icon.jpg" draggable="true" ondragstart="draganddrop.drag(event)">
+        <img id="drag2" src="/images/a小叮噹icon.jpg" draggable="true" ondragstart="draganddrop.drag(event)">
+
+</body>
+
+</html>
