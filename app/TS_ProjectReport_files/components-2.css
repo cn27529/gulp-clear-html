@@ -1,0 +1,1750 @@
+/***
+Yellow Crusta
+***/
+/* Button */
+.yellow-crusta.btn {
+  color: #FFFFFF;
+  background-color: #f3c200;
+}
+.yellow-crusta.btn:hover, .yellow-crusta.btn:focus, .yellow-crusta.btn:active, .yellow-crusta.btn.active {
+  color: #FFFFFF;
+  background-color: #cfa500;
+}
+.open .yellow-crusta.btn.dropdown-toggle {
+  color: #FFFFFF;
+  background-color: #cfa500;
+}
+.yellow-crusta.btn:active, .yellow-crusta.btn.active {
+  background-image: none;
+  background-color: #b69100;
+}
+.yellow-crusta.btn:active:hover, .yellow-crusta.btn.active:hover {
+  background-color: #c09900;
+}
+.open .yellow-crusta.btn.dropdown-toggle {
+  background-image: none;
+}
+.yellow-crusta.btn.disabled, .yellow-crusta.btn.disabled:hover, .yellow-crusta.btn.disabled:focus, .yellow-crusta.btn.disabled:active, .yellow-crusta.btn.disabled.active, .yellow-crusta.btn[disabled], .yellow-crusta.btn[disabled]:hover, .yellow-crusta.btn[disabled]:focus, .yellow-crusta.btn[disabled]:active, .yellow-crusta.btn[disabled].active, fieldset[disabled] .yellow-crusta.btn, fieldset[disabled] .yellow-crusta.btn:hover, fieldset[disabled] .yellow-crusta.btn:focus, fieldset[disabled] .yellow-crusta.btn:active, fieldset[disabled] .yellow-crusta.btn.active {
+  background-color: #f3c200;
+}
+.yellow-crusta.btn .badge {
+  color: #f3c200;
+  background-color: #FFFFFF;
+}
+
+/* Button Strip */
+.btn.yellow-crusta-stripe {
+  border-left: 3px solid #f3c200;
+}
+
+/* Portlet */
+.portlet > .portlet-body.yellow-crusta,
+.portlet.yellow-crusta {
+  background-color: #f3c200;
+}
+
+.portlet.solid.yellow-crusta > .portlet-title,
+.portlet.solid.yellow-crusta > .portlet-body {
+  border: 0;
+  color: #FFFFFF;
+}
+.portlet.solid.yellow-crusta > .portlet-title > .caption {
+  font-weight: 400;
+}
+.portlet.solid.yellow-crusta > .portlet-title > .caption > i {
+  color: #FFFFFF;
+}
+.portlet.solid.yellow-crusta > .portlet-title > .tools > a.remove {
+  background-image: url(../img/portlet-remove-icon-white.png);
+}
+.portlet.solid.yellow-crusta > .portlet-title > .tools > a.config {
+  background-image: url(../img/portlet-config-icon-white.png);
+}
+.portlet.solid.yellow-crusta > .portlet-title > .tools > a.reload {
+  background-image: url(../img/portlet-reload-icon-white.png);
+}
+.portlet.solid.yellow-crusta > .portlet-title > .tools > a.expand {
+  background-image: url(../img/portlet-expand-icon-white.png);
+}
+.portlet.solid.yellow-crusta > .portlet-title > .tools > a.collapse {
+  background-image: url(../img/portlet-collapse-icon-white.png);
+}
+.portlet.solid.yellow-crusta > .portlet-title > .tools > a.fullscreen {
+  color: #fdfdfd;
+}
+
+.portlet.box.yellow-crusta {
+  border: 1px solid #ffd327;
+  border-top: 0;
+}
+.portlet.box.yellow-crusta > .portlet-title {
+  background-color: #f3c200;
+}
+.portlet.box.yellow-crusta > .portlet-title > .caption {
+  color: #FFFFFF;
+}
+.portlet.box.yellow-crusta > .portlet-title > .caption > i {
+  color: #FFFFFF;
+}
+.portlet.box.yellow-crusta > .portlet-title > .actions .btn-default {
+  background: transparent !important;
+  background-color: transparent !important;
+  border: 1px solid #ffe064;
+  color: #ffe57e;
+}
+.portlet.box.yellow-crusta > .portlet-title > .actions .btn-default > i {
+  color: #ffe88d;
+}
+.portlet.box.yellow-crusta > .portlet-title > .actions .btn-default:hover, .portlet.box.yellow-crusta > .portlet-title > .actions .btn-default:focus, .portlet.box.yellow-crusta > .portlet-title > .actions .btn-default:active, .portlet.box.yellow-crusta > .portlet-title > .actions .btn-default.active {
+  border: 1px solid #ffea97;
+  color: #ffefb1;
+}
+
+/* Statistic Block */
+.dashboard-stat.yellow-crusta {
+  background-color: #f3c200;
+}
+.dashboard-stat.yellow-crusta.dashboard-stat-light:hover {
+  background-color: #dfb200;
+}
+.dashboard-stat.yellow-crusta .visual > i {
+  color: #FFFFFF;
+  opacity: 0.1;
+  filter: alpha(opacity=10);
+}
+.dashboard-stat.yellow-crusta .details .number {
+  color: #FFFFFF;
+}
+.dashboard-stat.yellow-crusta .details .desc {
+  color: #FFFFFF;
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+.dashboard-stat.yellow-crusta .more {
+  color: #FFFFFF;
+  background-color: #dfb200;
+}
+
+/* General Element */
+.bg-yellow-crusta {
+  border-color: #f3c200 !important;
+  background-image: none !important;
+  background-color: #f3c200 !important;
+  color: #FFFFFF !important;
+}
+
+/* General Text & Icon Font Colors */
+.font-yellow-crusta {
+  color: #f3c200 !important;
+}
+
+.progress-bar.yellow-crusta {
+  background: #f3c200 !important;
+  color: #FFFFFF !important;
+}
+
+/***
+Yellow Lemon
+***/
+/* Button */
+.yellow-lemon.btn {
+  color: #FFFFFF;
+  background-color: #F7CA18;
+}
+.yellow-lemon.btn:hover, .yellow-lemon.btn:focus, .yellow-lemon.btn:active, .yellow-lemon.btn.active {
+  color: #FFFFFF;
+  background-color: #e3b708;
+}
+.open .yellow-lemon.btn.dropdown-toggle {
+  color: #FFFFFF;
+  background-color: #e3b708;
+}
+.yellow-lemon.btn:active, .yellow-lemon.btn.active {
+  background-image: none;
+  background-color: #cba307;
+}
+.yellow-lemon.btn:active:hover, .yellow-lemon.btn.active:hover {
+  background-color: #d5ab07;
+}
+.open .yellow-lemon.btn.dropdown-toggle {
+  background-image: none;
+}
+.yellow-lemon.btn.disabled, .yellow-lemon.btn.disabled:hover, .yellow-lemon.btn.disabled:focus, .yellow-lemon.btn.disabled:active, .yellow-lemon.btn.disabled.active, .yellow-lemon.btn[disabled], .yellow-lemon.btn[disabled]:hover, .yellow-lemon.btn[disabled]:focus, .yellow-lemon.btn[disabled]:active, .yellow-lemon.btn[disabled].active, fieldset[disabled] .yellow-lemon.btn, fieldset[disabled] .yellow-lemon.btn:hover, fieldset[disabled] .yellow-lemon.btn:focus, fieldset[disabled] .yellow-lemon.btn:active, fieldset[disabled] .yellow-lemon.btn.active {
+  background-color: #F7CA18;
+}
+.yellow-lemon.btn .badge {
+  color: #F7CA18;
+  background-color: #FFFFFF;
+}
+
+/* Button Strip */
+.btn.yellow-lemon-stripe {
+  border-left: 3px solid #F7CA18;
+}
+
+/* Portlet */
+.portlet > .portlet-body.yellow-lemon,
+.portlet.yellow-lemon {
+  background-color: #F7CA18;
+}
+
+.portlet.solid.yellow-lemon > .portlet-title,
+.portlet.solid.yellow-lemon > .portlet-body {
+  border: 0;
+  color: #FFFFFF;
+}
+.portlet.solid.yellow-lemon > .portlet-title > .caption {
+  font-weight: 400;
+}
+.portlet.solid.yellow-lemon > .portlet-title > .caption > i {
+  color: #FFFFFF;
+}
+.portlet.solid.yellow-lemon > .portlet-title > .tools > a.remove {
+  background-image: url(../img/portlet-remove-icon-white.png);
+}
+.portlet.solid.yellow-lemon > .portlet-title > .tools > a.config {
+  background-image: url(../img/portlet-config-icon-white.png);
+}
+.portlet.solid.yellow-lemon > .portlet-title > .tools > a.reload {
+  background-image: url(../img/portlet-reload-icon-white.png);
+}
+.portlet.solid.yellow-lemon > .portlet-title > .tools > a.expand {
+  background-image: url(../img/portlet-expand-icon-white.png);
+}
+.portlet.solid.yellow-lemon > .portlet-title > .tools > a.collapse {
+  background-image: url(../img/portlet-collapse-icon-white.png);
+}
+.portlet.solid.yellow-lemon > .portlet-title > .tools > a.fullscreen {
+  color: #fdfdfd;
+}
+
+.portlet.box.yellow-lemon {
+  border: 1px solid #f9d549;
+  border-top: 0;
+}
+.portlet.box.yellow-lemon > .portlet-title {
+  background-color: #F7CA18;
+}
+.portlet.box.yellow-lemon > .portlet-title > .caption {
+  color: #FFFFFF;
+}
+.portlet.box.yellow-lemon > .portlet-title > .caption > i {
+  color: #FFFFFF;
+}
+.portlet.box.yellow-lemon > .portlet-title > .actions .btn-default {
+  background: transparent !important;
+  background-color: transparent !important;
+  border: 1px solid #fbe384;
+  color: #fce99d;
+}
+.portlet.box.yellow-lemon > .portlet-title > .actions .btn-default > i {
+  color: #fcecac;
+}
+.portlet.box.yellow-lemon > .portlet-title > .actions .btn-default:hover, .portlet.box.yellow-lemon > .portlet-title > .actions .btn-default:focus, .portlet.box.yellow-lemon > .portlet-title > .actions .btn-default:active, .portlet.box.yellow-lemon > .portlet-title > .actions .btn-default.active {
+  border: 1px solid #fceeb6;
+  color: #fdf4ce;
+}
+
+/* Statistic Block */
+.dashboard-stat.yellow-lemon {
+  background-color: #F7CA18;
+}
+.dashboard-stat.yellow-lemon.dashboard-stat-light:hover {
+  background-color: #f2c308;
+}
+.dashboard-stat.yellow-lemon .visual > i {
+  color: #FFFFFF;
+  opacity: 0.1;
+  filter: alpha(opacity=10);
+}
+.dashboard-stat.yellow-lemon .details .number {
+  color: #FFFFFF;
+}
+.dashboard-stat.yellow-lemon .details .desc {
+  color: #FFFFFF;
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+.dashboard-stat.yellow-lemon .more {
+  color: #FFFFFF;
+  background-color: #f2c308;
+}
+
+/* General Element */
+.bg-yellow-lemon {
+  border-color: #F7CA18 !important;
+  background-image: none !important;
+  background-color: #F7CA18 !important;
+  color: #FFFFFF !important;
+}
+
+/* General Text & Icon Font Colors */
+.font-yellow-lemon {
+  color: #F7CA18 !important;
+}
+
+.progress-bar.yellow-lemon {
+  background: #F7CA18 !important;
+  color: #FFFFFF !important;
+}
+
+/***
+Yellow Saffron
+***/
+/* Button */
+.yellow-saffron.btn {
+  color: #FFFFFF;
+  background-color: #F4D03F;
+}
+.yellow-saffron.btn:hover, .yellow-saffron.btn:focus, .yellow-saffron.btn:active, .yellow-saffron.btn.active {
+  color: #FFFFFF;
+  background-color: #f2c81d;
+}
+.open .yellow-saffron.btn.dropdown-toggle {
+  color: #FFFFFF;
+  background-color: #f2c81d;
+}
+.yellow-saffron.btn:active, .yellow-saffron.btn.active {
+  background-image: none;
+  background-color: #e8bd0d;
+}
+.yellow-saffron.btn:active:hover, .yellow-saffron.btn.active:hover {
+  background-color: #f1c40f;
+}
+.open .yellow-saffron.btn.dropdown-toggle {
+  background-image: none;
+}
+.yellow-saffron.btn.disabled, .yellow-saffron.btn.disabled:hover, .yellow-saffron.btn.disabled:focus, .yellow-saffron.btn.disabled:active, .yellow-saffron.btn.disabled.active, .yellow-saffron.btn[disabled], .yellow-saffron.btn[disabled]:hover, .yellow-saffron.btn[disabled]:focus, .yellow-saffron.btn[disabled]:active, .yellow-saffron.btn[disabled].active, fieldset[disabled] .yellow-saffron.btn, fieldset[disabled] .yellow-saffron.btn:hover, fieldset[disabled] .yellow-saffron.btn:focus, fieldset[disabled] .yellow-saffron.btn:active, fieldset[disabled] .yellow-saffron.btn.active {
+  background-color: #F4D03F;
+}
+.yellow-saffron.btn .badge {
+  color: #F4D03F;
+  background-color: #FFFFFF;
+}
+
+/* Button Strip */
+.btn.yellow-saffron-stripe {
+  border-left: 3px solid #F4D03F;
+}
+
+/* Portlet */
+.portlet > .portlet-body.yellow-saffron,
+.portlet.yellow-saffron {
+  background-color: #F4D03F;
+}
+
+.portlet.solid.yellow-saffron > .portlet-title,
+.portlet.solid.yellow-saffron > .portlet-body {
+  border: 0;
+  color: #FFFFFF;
+}
+.portlet.solid.yellow-saffron > .portlet-title > .caption {
+  font-weight: 400;
+}
+.portlet.solid.yellow-saffron > .portlet-title > .caption > i {
+  color: #FFFFFF;
+}
+.portlet.solid.yellow-saffron > .portlet-title > .tools > a.remove {
+  background-image: url(../img/portlet-remove-icon-white.png);
+}
+.portlet.solid.yellow-saffron > .portlet-title > .tools > a.config {
+  background-image: url(../img/portlet-config-icon-white.png);
+}
+.portlet.solid.yellow-saffron > .portlet-title > .tools > a.reload {
+  background-image: url(../img/portlet-reload-icon-white.png);
+}
+.portlet.solid.yellow-saffron > .portlet-title > .tools > a.expand {
+  background-image: url(../img/portlet-expand-icon-white.png);
+}
+.portlet.solid.yellow-saffron > .portlet-title > .tools > a.collapse {
+  background-image: url(../img/portlet-collapse-icon-white.png);
+}
+.portlet.solid.yellow-saffron > .portlet-title > .tools > a.fullscreen {
+  color: #fdfdfd;
+}
+
+.portlet.box.yellow-saffron {
+  border: 1px solid #f7dc6f;
+  border-top: 0;
+}
+.portlet.box.yellow-saffron > .portlet-title {
+  background-color: #F4D03F;
+}
+.portlet.box.yellow-saffron > .portlet-title > .caption {
+  color: #FFFFFF;
+}
+.portlet.box.yellow-saffron > .portlet-title > .caption > i {
+  color: #FFFFFF;
+}
+.portlet.box.yellow-saffron > .portlet-title > .actions .btn-default {
+  background: transparent !important;
+  background-color: transparent !important;
+  border: 1px solid #faeaa9;
+  color: #fbf0c1;
+}
+.portlet.box.yellow-saffron > .portlet-title > .actions .btn-default > i {
+  color: #fcf3d0;
+}
+.portlet.box.yellow-saffron > .portlet-title > .actions .btn-default:hover, .portlet.box.yellow-saffron > .portlet-title > .actions .btn-default:focus, .portlet.box.yellow-saffron > .portlet-title > .actions .btn-default:active, .portlet.box.yellow-saffron > .portlet-title > .actions .btn-default.active {
+  border: 1px solid #fdf6d9;
+  color: #fefcf1;
+}
+
+/* Statistic Block */
+.dashboard-stat.yellow-saffron {
+  background-color: #F4D03F;
+}
+.dashboard-stat.yellow-saffron.dashboard-stat-light:hover {
+  background-color: #f3cb2c;
+}
+.dashboard-stat.yellow-saffron .visual > i {
+  color: #FFFFFF;
+  opacity: 0.1;
+  filter: alpha(opacity=10);
+}
+.dashboard-stat.yellow-saffron .details .number {
+  color: #FFFFFF;
+}
+.dashboard-stat.yellow-saffron .details .desc {
+  color: #FFFFFF;
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+.dashboard-stat.yellow-saffron .more {
+  color: #FFFFFF;
+  background-color: #f3cb2c;
+}
+
+/* General Element */
+.bg-yellow-saffron {
+  border-color: #F4D03F !important;
+  background-image: none !important;
+  background-color: #F4D03F !important;
+  color: #FFFFFF !important;
+}
+
+/* General Text & Icon Font Colors */
+.font-yellow-saffron {
+  color: #F4D03F !important;
+}
+
+.progress-bar.yellow-saffron {
+  background: #F4D03F !important;
+  color: #FFFFFF !important;
+}
+
+/***********
+Purple Colors
+************/
+/***
+Purple Default
+***/
+/* Button */
+.purple.btn {
+  color: #FFFFFF;
+  background-color: #8e5fa2;
+}
+.purple.btn:hover, .purple.btn:focus, .purple.btn:active, .purple.btn.active {
+  color: #FFFFFF;
+  background-color: #7a518c;
+}
+.open .purple.btn.dropdown-toggle {
+  color: #FFFFFF;
+  background-color: #7a518c;
+}
+.purple.btn:active, .purple.btn.active {
+  background-image: none;
+  background-color: #6c487c;
+}
+.purple.btn:active:hover, .purple.btn.active:hover {
+  background-color: #724c82;
+}
+.open .purple.btn.dropdown-toggle {
+  background-image: none;
+}
+.purple.btn.disabled, .purple.btn.disabled:hover, .purple.btn.disabled:focus, .purple.btn.disabled:active, .purple.btn.disabled.active, .purple.btn[disabled], .purple.btn[disabled]:hover, .purple.btn[disabled]:focus, .purple.btn[disabled]:active, .purple.btn[disabled].active, fieldset[disabled] .purple.btn, fieldset[disabled] .purple.btn:hover, fieldset[disabled] .purple.btn:focus, fieldset[disabled] .purple.btn:active, fieldset[disabled] .purple.btn.active {
+  background-color: #8e5fa2;
+}
+.purple.btn .badge {
+  color: #8e5fa2;
+  background-color: #FFFFFF;
+}
+
+/* Button Strip */
+.btn.purple-stripe {
+  border-left: 3px solid #8e5fa2;
+}
+
+/* Portlet */
+.portlet > .portlet-body.purple,
+.portlet.purple {
+  background-color: #8e5fa2;
+}
+
+.portlet.solid.purple > .portlet-title,
+.portlet.solid.purple > .portlet-body {
+  border: 0;
+  color: #FFFFFF;
+}
+.portlet.solid.purple > .portlet-title > .caption {
+  font-weight: 400;
+}
+.portlet.solid.purple > .portlet-title > .caption > i {
+  color: #FFFFFF;
+}
+.portlet.solid.purple > .portlet-title > .tools > a.remove {
+  background-image: url(../img/portlet-remove-icon-white.png);
+}
+.portlet.solid.purple > .portlet-title > .tools > a.config {
+  background-image: url(../img/portlet-config-icon-white.png);
+}
+.portlet.solid.purple > .portlet-title > .tools > a.reload {
+  background-image: url(../img/portlet-reload-icon-white.png);
+}
+.portlet.solid.purple > .portlet-title > .tools > a.expand {
+  background-image: url(../img/portlet-expand-icon-white.png);
+}
+.portlet.solid.purple > .portlet-title > .tools > a.collapse {
+  background-image: url(../img/portlet-collapse-icon-white.png);
+}
+.portlet.solid.purple > .portlet-title > .tools > a.fullscreen {
+  color: #fdfdfd;
+}
+
+.portlet.box.purple {
+  border: 1px solid #a57fb5;
+  border-top: 0;
+}
+.portlet.box.purple > .portlet-title {
+  background-color: #8e5fa2;
+}
+.portlet.box.purple > .portlet-title > .caption {
+  color: #FFFFFF;
+}
+.portlet.box.purple > .portlet-title > .caption > i {
+  color: #FFFFFF;
+}
+.portlet.box.purple > .portlet-title > .actions .btn-default {
+  background: transparent !important;
+  background-color: transparent !important;
+  border: 1px solid #c0a6cb;
+  color: #ccb6d5;
+}
+.portlet.box.purple > .portlet-title > .actions .btn-default > i {
+  color: #d2c0da;
+}
+.portlet.box.purple > .portlet-title > .actions .btn-default:hover, .portlet.box.purple > .portlet-title > .actions .btn-default:focus, .portlet.box.purple > .portlet-title > .actions .btn-default:active, .portlet.box.purple > .portlet-title > .actions .btn-default.active {
+  border: 1px solid #d7c6de;
+  color: #e2d6e7;
+}
+
+/* Statistic Block */
+.dashboard-stat.purple {
+  background-color: #8e5fa2;
+}
+.dashboard-stat.purple.dashboard-stat-light:hover {
+  background-color: #835796;
+}
+.dashboard-stat.purple .visual > i {
+  color: #FFFFFF;
+  opacity: 0.1;
+  filter: alpha(opacity=10);
+}
+.dashboard-stat.purple .details .number {
+  color: #FFFFFF;
+}
+.dashboard-stat.purple .details .desc {
+  color: #FFFFFF;
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+.dashboard-stat.purple .more {
+  color: #FFFFFF;
+  background-color: #835796;
+}
+
+/* General Element */
+.bg-purple {
+  border-color: #8e5fa2 !important;
+  background-image: none !important;
+  background-color: #8e5fa2 !important;
+  color: #FFFFFF !important;
+}
+
+/* General Text & Icon Font Colors */
+.font-purple {
+  color: #8e5fa2 !important;
+}
+
+.progress-bar.purple {
+  background: #8e5fa2 !important;
+  color: #FFFFFF !important;
+}
+
+/***
+Purple Plum
+***/
+/* Button */
+.purple-plum.btn {
+  color: #FFFFFF;
+  background-color: #8775a7;
+}
+.purple-plum.btn:hover, .purple-plum.btn:focus, .purple-plum.btn:active, .purple-plum.btn.active {
+  color: #FFFFFF;
+  background-color: #746198;
+}
+.open .purple-plum.btn.dropdown-toggle {
+  color: #FFFFFF;
+  background-color: #746198;
+}
+.purple-plum.btn:active, .purple-plum.btn.active {
+  background-image: none;
+  background-color: #685788;
+}
+.purple-plum.btn:active:hover, .purple-plum.btn.active:hover {
+  background-color: #6d5b8e;
+}
+.open .purple-plum.btn.dropdown-toggle {
+  background-image: none;
+}
+.purple-plum.btn.disabled, .purple-plum.btn.disabled:hover, .purple-plum.btn.disabled:focus, .purple-plum.btn.disabled:active, .purple-plum.btn.disabled.active, .purple-plum.btn[disabled], .purple-plum.btn[disabled]:hover, .purple-plum.btn[disabled]:focus, .purple-plum.btn[disabled]:active, .purple-plum.btn[disabled].active, fieldset[disabled] .purple-plum.btn, fieldset[disabled] .purple-plum.btn:hover, fieldset[disabled] .purple-plum.btn:focus, fieldset[disabled] .purple-plum.btn:active, fieldset[disabled] .purple-plum.btn.active {
+  background-color: #8775a7;
+}
+.purple-plum.btn .badge {
+  color: #8775a7;
+  background-color: #FFFFFF;
+}
+
+/* Button Strip */
+.btn.purple-plum-stripe {
+  border-left: 3px solid #8775a7;
+}
+
+/* Portlet */
+.portlet > .portlet-body.purple-plum,
+.portlet.purple-plum {
+  background-color: #8775a7;
+}
+
+.portlet.solid.purple-plum > .portlet-title,
+.portlet.solid.purple-plum > .portlet-body {
+  border: 0;
+  color: #FFFFFF;
+}
+.portlet.solid.purple-plum > .portlet-title > .caption {
+  font-weight: 400;
+}
+.portlet.solid.purple-plum > .portlet-title > .caption > i {
+  color: #FFFFFF;
+}
+.portlet.solid.purple-plum > .portlet-title > .tools > a.remove {
+  background-image: url(../img/portlet-remove-icon-white.png);
+}
+.portlet.solid.purple-plum > .portlet-title > .tools > a.config {
+  background-image: url(../img/portlet-config-icon-white.png);
+}
+.portlet.solid.purple-plum > .portlet-title > .tools > a.reload {
+  background-image: url(../img/portlet-reload-icon-white.png);
+}
+.portlet.solid.purple-plum > .portlet-title > .tools > a.expand {
+  background-image: url(../img/portlet-expand-icon-white.png);
+}
+.portlet.solid.purple-plum > .portlet-title > .tools > a.collapse {
+  background-image: url(../img/portlet-collapse-icon-white.png);
+}
+.portlet.solid.purple-plum > .portlet-title > .tools > a.fullscreen {
+  color: #fdfdfd;
+}
+
+.portlet.box.purple-plum {
+  border: 1px solid #a294bb;
+  border-top: 0;
+}
+.portlet.box.purple-plum > .portlet-title {
+  background-color: #8775a7;
+}
+.portlet.box.purple-plum > .portlet-title > .caption {
+  color: #FFFFFF;
+}
+.portlet.box.purple-plum > .portlet-title > .caption > i {
+  color: #FFFFFF;
+}
+.portlet.box.purple-plum > .portlet-title > .actions .btn-default {
+  background: transparent !important;
+  background-color: transparent !important;
+  border: 1px solid #c3bad3;
+  color: #d0c9dd;
+}
+.portlet.box.purple-plum > .portlet-title > .actions .btn-default > i {
+  color: #d8d2e3;
+}
+.portlet.box.purple-plum > .portlet-title > .actions .btn-default:hover, .portlet.box.purple-plum > .portlet-title > .actions .btn-default:focus, .portlet.box.purple-plum > .portlet-title > .actions .btn-default:active, .portlet.box.purple-plum > .portlet-title > .actions .btn-default.active {
+  border: 1px solid #ded9e7;
+  color: #ebe8f0;
+}
+
+/* Statistic Block */
+.dashboard-stat.purple-plum {
+  background-color: #8775a7;
+}
+.dashboard-stat.purple-plum.dashboard-stat-light:hover {
+  background-color: #7c699f;
+}
+.dashboard-stat.purple-plum .visual > i {
+  color: #FFFFFF;
+  opacity: 0.1;
+  filter: alpha(opacity=10);
+}
+.dashboard-stat.purple-plum .details .number {
+  color: #FFFFFF;
+}
+.dashboard-stat.purple-plum .details .desc {
+  color: #FFFFFF;
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+.dashboard-stat.purple-plum .more {
+  color: #FFFFFF;
+  background-color: #7c699f;
+}
+
+/* General Element */
+.bg-purple-plum {
+  border-color: #8775a7 !important;
+  background-image: none !important;
+  background-color: #8775a7 !important;
+  color: #FFFFFF !important;
+}
+
+/* General Text & Icon Font Colors */
+.font-purple-plum {
+  color: #8775a7 !important;
+}
+
+.progress-bar.purple-plum {
+  background: #8775a7 !important;
+  color: #FFFFFF !important;
+}
+
+/***
+Purple Medium
+***/
+/* Button */
+.purple-medium.btn {
+  color: #FFFFFF;
+  background-color: #BF55EC;
+}
+.purple-medium.btn:hover, .purple-medium.btn:focus, .purple-medium.btn:active, .purple-medium.btn.active {
+  color: #FFFFFF;
+  background-color: #b335e8;
+}
+.open .purple-medium.btn.dropdown-toggle {
+  color: #FFFFFF;
+  background-color: #b335e8;
+}
+.purple-medium.btn:active, .purple-medium.btn.active {
+  background-image: none;
+  background-color: #aa1ee6;
+}
+.purple-medium.btn:active:hover, .purple-medium.btn.active:hover {
+  background-color: #ae27e7;
+}
+.open .purple-medium.btn.dropdown-toggle {
+  background-image: none;
+}
+.purple-medium.btn.disabled, .purple-medium.btn.disabled:hover, .purple-medium.btn.disabled:focus, .purple-medium.btn.disabled:active, .purple-medium.btn.disabled.active, .purple-medium.btn[disabled], .purple-medium.btn[disabled]:hover, .purple-medium.btn[disabled]:focus, .purple-medium.btn[disabled]:active, .purple-medium.btn[disabled].active, fieldset[disabled] .purple-medium.btn, fieldset[disabled] .purple-medium.btn:hover, fieldset[disabled] .purple-medium.btn:focus, fieldset[disabled] .purple-medium.btn:active, fieldset[disabled] .purple-medium.btn.active {
+  background-color: #BF55EC;
+}
+.purple-medium.btn .badge {
+  color: #BF55EC;
+  background-color: #FFFFFF;
+}
+
+/* Button Strip */
+.btn.purple-medium-stripe {
+  border-left: 3px solid #BF55EC;
+}
+
+/* Portlet */
+.portlet > .portlet-body.purple-medium,
+.portlet.purple-medium {
+  background-color: #BF55EC;
+}
+
+.portlet.solid.purple-medium > .portlet-title,
+.portlet.solid.purple-medium > .portlet-body {
+  border: 0;
+  color: #FFFFFF;
+}
+.portlet.solid.purple-medium > .portlet-title > .caption {
+  font-weight: 400;
+}
+.portlet.solid.purple-medium > .portlet-title > .caption > i {
+  color: #FFFFFF;
+}
+.portlet.solid.purple-medium > .portlet-title > .tools > a.remove {
+  background-image: url(../img/portlet-remove-icon-white.png);
+}
+.portlet.solid.purple-medium > .portlet-title > .tools > a.config {
+  background-image: url(../img/portlet-config-icon-white.png);
+}
+.portlet.solid.purple-medium > .portlet-title > .tools > a.reload {
+  background-image: url(../img/portlet-reload-icon-white.png);
+}
+.portlet.solid.purple-medium > .portlet-title > .tools > a.expand {
+  background-image: url(../img/portlet-expand-icon-white.png);
+}
+.portlet.solid.purple-medium > .portlet-title > .tools > a.collapse {
+  background-image: url(../img/portlet-collapse-icon-white.png);
+}
+.portlet.solid.purple-medium > .portlet-title > .tools > a.fullscreen {
+  color: #fdfdfd;
+}
+
+.portlet.box.purple-medium {
+  border: 1px solid #d083f1;
+  border-top: 0;
+}
+.portlet.box.purple-medium > .portlet-title {
+  background-color: #BF55EC;
+}
+.portlet.box.purple-medium > .portlet-title > .caption {
+  color: #FFFFFF;
+}
+.portlet.box.purple-medium > .portlet-title > .caption > i {
+  color: #FFFFFF;
+}
+.portlet.box.purple-medium > .portlet-title > .actions .btn-default {
+  background: transparent !important;
+  background-color: transparent !important;
+  border: 1px solid #e5baf7;
+  color: #eed1fa;
+}
+.portlet.box.purple-medium > .portlet-title > .actions .btn-default > i {
+  color: #f3dffb;
+}
+.portlet.box.purple-medium > .portlet-title > .actions .btn-default:hover, .portlet.box.purple-medium > .portlet-title > .actions .btn-default:focus, .portlet.box.purple-medium > .portlet-title > .actions .btn-default:active, .portlet.box.purple-medium > .portlet-title > .actions .btn-default.active {
+  border: 1px solid #f6e8fc;
+  color: white;
+}
+
+/* Statistic Block */
+.dashboard-stat.purple-medium {
+  background-color: #BF55EC;
+}
+.dashboard-stat.purple-medium.dashboard-stat-light:hover {
+  background-color: #b843ea;
+}
+.dashboard-stat.purple-medium .visual > i {
+  color: #FFFFFF;
+  opacity: 0.1;
+  filter: alpha(opacity=10);
+}
+.dashboard-stat.purple-medium .details .number {
+  color: #FFFFFF;
+}
+.dashboard-stat.purple-medium .details .desc {
+  color: #FFFFFF;
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+.dashboard-stat.purple-medium .more {
+  color: #FFFFFF;
+  background-color: #b843ea;
+}
+
+/* General Element */
+.bg-purple-medium {
+  border-color: #BF55EC !important;
+  background-image: none !important;
+  background-color: #BF55EC !important;
+  color: #FFFFFF !important;
+}
+
+/* General Text & Icon Font Colors */
+.font-purple-medium {
+  color: #BF55EC !important;
+}
+
+.progress-bar.purple-medium {
+  background: #BF55EC !important;
+  color: #FFFFFF !important;
+}
+
+/***
+Purple Studio
+***/
+/* Button */
+.purple-studio.btn {
+  color: #FFFFFF;
+  background-color: #8E44AD;
+}
+.purple-studio.btn:hover, .purple-studio.btn:focus, .purple-studio.btn:active, .purple-studio.btn.active {
+  color: #FFFFFF;
+  background-color: #793a93;
+}
+.open .purple-studio.btn.dropdown-toggle {
+  color: #FFFFFF;
+  background-color: #793a93;
+}
+.purple-studio.btn:active, .purple-studio.btn.active {
+  background-image: none;
+  background-color: #6a3381;
+}
+.purple-studio.btn:active:hover, .purple-studio.btn.active:hover {
+  background-color: #703688;
+}
+.open .purple-studio.btn.dropdown-toggle {
+  background-image: none;
+}
+.purple-studio.btn.disabled, .purple-studio.btn.disabled:hover, .purple-studio.btn.disabled:focus, .purple-studio.btn.disabled:active, .purple-studio.btn.disabled.active, .purple-studio.btn[disabled], .purple-studio.btn[disabled]:hover, .purple-studio.btn[disabled]:focus, .purple-studio.btn[disabled]:active, .purple-studio.btn[disabled].active, fieldset[disabled] .purple-studio.btn, fieldset[disabled] .purple-studio.btn:hover, fieldset[disabled] .purple-studio.btn:focus, fieldset[disabled] .purple-studio.btn:active, fieldset[disabled] .purple-studio.btn.active {
+  background-color: #8E44AD;
+}
+.purple-studio.btn .badge {
+  color: #8E44AD;
+  background-color: #FFFFFF;
+}
+
+/* Button Strip */
+.btn.purple-studio-stripe {
+  border-left: 3px solid #8E44AD;
+}
+
+/* Portlet */
+.portlet > .portlet-body.purple-studio,
+.portlet.purple-studio {
+  background-color: #8E44AD;
+}
+
+.portlet.solid.purple-studio > .portlet-title,
+.portlet.solid.purple-studio > .portlet-body {
+  border: 0;
+  color: #FFFFFF;
+}
+.portlet.solid.purple-studio > .portlet-title > .caption {
+  font-weight: 400;
+}
+.portlet.solid.purple-studio > .portlet-title > .caption > i {
+  color: #FFFFFF;
+}
+.portlet.solid.purple-studio > .portlet-title > .tools > a.remove {
+  background-image: url(../img/portlet-remove-icon-white.png);
+}
+.portlet.solid.purple-studio > .portlet-title > .tools > a.config {
+  background-image: url(../img/portlet-config-icon-white.png);
+}
+.portlet.solid.purple-studio > .portlet-title > .tools > a.reload {
+  background-image: url(../img/portlet-reload-icon-white.png);
+}
+.portlet.solid.purple-studio > .portlet-title > .tools > a.expand {
+  background-image: url(../img/portlet-expand-icon-white.png);
+}
+.portlet.solid.purple-studio > .portlet-title > .tools > a.collapse {
+  background-image: url(../img/portlet-collapse-icon-white.png);
+}
+.portlet.solid.purple-studio > .portlet-title > .tools > a.fullscreen {
+  color: #fdfdfd;
+}
+
+.portlet.box.purple-studio {
+  border: 1px solid #a563c1;
+  border-top: 0;
+}
+.portlet.box.purple-studio > .portlet-title {
+  background-color: #8E44AD;
+}
+.portlet.box.purple-studio > .portlet-title > .caption {
+  color: #FFFFFF;
+}
+.portlet.box.purple-studio > .portlet-title > .caption > i {
+  color: #FFFFFF;
+}
+.portlet.box.purple-studio > .portlet-title > .actions .btn-default {
+  background: transparent !important;
+  background-color: transparent !important;
+  border: 1px solid #bf8ed3;
+  color: #c9a1da;
+}
+.portlet.box.purple-studio > .portlet-title > .actions .btn-default > i {
+  color: #cfacde;
+}
+.portlet.box.purple-studio > .portlet-title > .actions .btn-default:hover, .portlet.box.purple-studio > .portlet-title > .actions .btn-default:focus, .portlet.box.purple-studio > .portlet-title > .actions .btn-default:active, .portlet.box.purple-studio > .portlet-title > .actions .btn-default.active {
+  border: 1px solid #d4b3e1;
+  color: #dec5e8;
+}
+
+/* Statistic Block */
+.dashboard-stat.purple-studio {
+  background-color: #8E44AD;
+}
+.dashboard-stat.purple-studio.dashboard-stat-light:hover {
+  background-color: #823e9e;
+}
+.dashboard-stat.purple-studio .visual > i {
+  color: #FFFFFF;
+  opacity: 0.1;
+  filter: alpha(opacity=10);
+}
+.dashboard-stat.purple-studio .details .number {
+  color: #FFFFFF;
+}
+.dashboard-stat.purple-studio .details .desc {
+  color: #FFFFFF;
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+.dashboard-stat.purple-studio .more {
+  color: #FFFFFF;
+  background-color: #823e9e;
+}
+
+/* General Element */
+.bg-purple-studio {
+  border-color: #8E44AD !important;
+  background-image: none !important;
+  background-color: #8E44AD !important;
+  color: #FFFFFF !important;
+}
+
+/* General Text & Icon Font Colors */
+.font-purple-studio {
+  color: #8E44AD !important;
+}
+
+.progress-bar.purple-studio {
+  background: #8E44AD !important;
+  color: #FFFFFF !important;
+}
+
+/***
+Purple Wisteria
+***/
+/* Button */
+.purple-wisteria.btn {
+  color: #FFFFFF;
+  background-color: #9B59B6;
+}
+.purple-wisteria.btn:hover, .purple-wisteria.btn:focus, .purple-wisteria.btn:active, .purple-wisteria.btn.active {
+  color: #FFFFFF;
+  background-color: #8948a3;
+}
+.open .purple-wisteria.btn.dropdown-toggle {
+  color: #FFFFFF;
+  background-color: #8948a3;
+}
+.purple-wisteria.btn:active, .purple-wisteria.btn.active {
+  background-image: none;
+  background-color: #7a4092;
+}
+.purple-wisteria.btn:active:hover, .purple-wisteria.btn.active:hover {
+  background-color: #804399;
+}
+.open .purple-wisteria.btn.dropdown-toggle {
+  background-image: none;
+}
+.purple-wisteria.btn.disabled, .purple-wisteria.btn.disabled:hover, .purple-wisteria.btn.disabled:focus, .purple-wisteria.btn.disabled:active, .purple-wisteria.btn.disabled.active, .purple-wisteria.btn[disabled], .purple-wisteria.btn[disabled]:hover, .purple-wisteria.btn[disabled]:focus, .purple-wisteria.btn[disabled]:active, .purple-wisteria.btn[disabled].active, fieldset[disabled] .purple-wisteria.btn, fieldset[disabled] .purple-wisteria.btn:hover, fieldset[disabled] .purple-wisteria.btn:focus, fieldset[disabled] .purple-wisteria.btn:active, fieldset[disabled] .purple-wisteria.btn.active {
+  background-color: #9B59B6;
+}
+.purple-wisteria.btn .badge {
+  color: #9B59B6;
+  background-color: #FFFFFF;
+}
+
+/* Button Strip */
+.btn.purple-wisteria-stripe {
+  border-left: 3px solid #9B59B6;
+}
+
+/* Portlet */
+.portlet > .portlet-body.purple-wisteria,
+.portlet.purple-wisteria {
+  background-color: #9B59B6;
+}
+
+.portlet.solid.purple-wisteria > .portlet-title,
+.portlet.solid.purple-wisteria > .portlet-body {
+  border: 0;
+  color: #FFFFFF;
+}
+.portlet.solid.purple-wisteria > .portlet-title > .caption {
+  font-weight: 400;
+}
+.portlet.solid.purple-wisteria > .portlet-title > .caption > i {
+  color: #FFFFFF;
+}
+.portlet.solid.purple-wisteria > .portlet-title > .tools > a.remove {
+  background-image: url(../img/portlet-remove-icon-white.png);
+}
+.portlet.solid.purple-wisteria > .portlet-title > .tools > a.config {
+  background-image: url(../img/portlet-config-icon-white.png);
+}
+.portlet.solid.purple-wisteria > .portlet-title > .tools > a.reload {
+  background-image: url(../img/portlet-reload-icon-white.png);
+}
+.portlet.solid.purple-wisteria > .portlet-title > .tools > a.expand {
+  background-image: url(../img/portlet-expand-icon-white.png);
+}
+.portlet.solid.purple-wisteria > .portlet-title > .tools > a.collapse {
+  background-image: url(../img/portlet-collapse-icon-white.png);
+}
+.portlet.solid.purple-wisteria > .portlet-title > .tools > a.fullscreen {
+  color: #fdfdfd;
+}
+
+.portlet.box.purple-wisteria {
+  border: 1px solid #b07cc6;
+  border-top: 0;
+}
+.portlet.box.purple-wisteria > .portlet-title {
+  background-color: #9B59B6;
+}
+.portlet.box.purple-wisteria > .portlet-title > .caption {
+  color: #FFFFFF;
+}
+.portlet.box.purple-wisteria > .portlet-title > .caption > i {
+  color: #FFFFFF;
+}
+.portlet.box.purple-wisteria > .portlet-title > .actions .btn-default {
+  background: transparent !important;
+  background-color: transparent !important;
+  border: 1px solid #caa7d8;
+  color: #d5b9e0;
+}
+.portlet.box.purple-wisteria > .portlet-title > .actions .btn-default > i {
+  color: #dbc3e5;
+}
+.portlet.box.purple-wisteria > .portlet-title > .actions .btn-default:hover, .portlet.box.purple-wisteria > .portlet-title > .actions .btn-default:focus, .portlet.box.purple-wisteria > .portlet-title > .actions .btn-default:active, .portlet.box.purple-wisteria > .portlet-title > .actions .btn-default.active {
+  border: 1px solid #dfcae8;
+  color: #eadcf0;
+}
+
+/* Statistic Block */
+.dashboard-stat.purple-wisteria {
+  background-color: #9B59B6;
+}
+.dashboard-stat.purple-wisteria.dashboard-stat-light:hover {
+  background-color: #924dae;
+}
+.dashboard-stat.purple-wisteria .visual > i {
+  color: #FFFFFF;
+  opacity: 0.1;
+  filter: alpha(opacity=10);
+}
+.dashboard-stat.purple-wisteria .details .number {
+  color: #FFFFFF;
+}
+.dashboard-stat.purple-wisteria .details .desc {
+  color: #FFFFFF;
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+.dashboard-stat.purple-wisteria .more {
+  color: #FFFFFF;
+  background-color: #924dae;
+}
+
+/* General Element */
+.bg-purple-wisteria {
+  border-color: #9B59B6 !important;
+  background-image: none !important;
+  background-color: #9B59B6 !important;
+  color: #FFFFFF !important;
+}
+
+/* General Text & Icon Font Colors */
+.font-purple-wisteria {
+  color: #9B59B6 !important;
+}
+
+.progress-bar.purple-wisteria {
+  background: #9B59B6 !important;
+  color: #FFFFFF !important;
+}
+
+/***
+Purple Seance
+***/
+/* Button */
+.purple-seance.btn {
+  color: #FFFFFF;
+  background-color: #9A12B3;
+}
+.purple-seance.btn:hover, .purple-seance.btn:focus, .purple-seance.btn:active, .purple-seance.btn.active {
+  color: #FFFFFF;
+  background-color: #7e0f93;
+}
+.open .purple-seance.btn.dropdown-toggle {
+  color: #FFFFFF;
+  background-color: #7e0f93;
+}
+.purple-seance.btn:active, .purple-seance.btn.active {
+  background-image: none;
+  background-color: #6a0c7b;
+}
+.purple-seance.btn:active:hover, .purple-seance.btn.active:hover {
+  background-color: #720d85;
+}
+.open .purple-seance.btn.dropdown-toggle {
+  background-image: none;
+}
+.purple-seance.btn.disabled, .purple-seance.btn.disabled:hover, .purple-seance.btn.disabled:focus, .purple-seance.btn.disabled:active, .purple-seance.btn.disabled.active, .purple-seance.btn[disabled], .purple-seance.btn[disabled]:hover, .purple-seance.btn[disabled]:focus, .purple-seance.btn[disabled]:active, .purple-seance.btn[disabled].active, fieldset[disabled] .purple-seance.btn, fieldset[disabled] .purple-seance.btn:hover, fieldset[disabled] .purple-seance.btn:focus, fieldset[disabled] .purple-seance.btn:active, fieldset[disabled] .purple-seance.btn.active {
+  background-color: #9A12B3;
+}
+.purple-seance.btn .badge {
+  color: #9A12B3;
+  background-color: #FFFFFF;
+}
+
+/* Button Strip */
+.btn.purple-seance-stripe {
+  border-left: 3px solid #9A12B3;
+}
+
+/* Portlet */
+.portlet > .portlet-body.purple-seance,
+.portlet.purple-seance {
+  background-color: #9A12B3;
+}
+
+.portlet.solid.purple-seance > .portlet-title,
+.portlet.solid.purple-seance > .portlet-body {
+  border: 0;
+  color: #FFFFFF;
+}
+.portlet.solid.purple-seance > .portlet-title > .caption {
+  font-weight: 400;
+}
+.portlet.solid.purple-seance > .portlet-title > .caption > i {
+  color: #FFFFFF;
+}
+.portlet.solid.purple-seance > .portlet-title > .tools > a.remove {
+  background-image: url(../img/portlet-remove-icon-white.png);
+}
+.portlet.solid.purple-seance > .portlet-title > .tools > a.config {
+  background-image: url(../img/portlet-config-icon-white.png);
+}
+.portlet.solid.purple-seance > .portlet-title > .tools > a.reload {
+  background-image: url(../img/portlet-reload-icon-white.png);
+}
+.portlet.solid.purple-seance > .portlet-title > .tools > a.expand {
+  background-image: url(../img/portlet-expand-icon-white.png);
+}
+.portlet.solid.purple-seance > .portlet-title > .tools > a.collapse {
+  background-image: url(../img/portlet-collapse-icon-white.png);
+}
+.portlet.solid.purple-seance > .portlet-title > .tools > a.fullscreen {
+  color: #fdfdfd;
+}
+
+.portlet.box.purple-seance {
+  border: 1px solid #c217e1;
+  border-top: 0;
+}
+.portlet.box.purple-seance > .portlet-title {
+  background-color: #9A12B3;
+}
+.portlet.box.purple-seance > .portlet-title > .caption {
+  color: #FFFFFF;
+}
+.portlet.box.purple-seance > .portlet-title > .caption > i {
+  color: #FFFFFF;
+}
+.portlet.box.purple-seance > .portlet-title > .actions .btn-default {
+  background: transparent !important;
+  background-color: transparent !important;
+  border: 1px solid #d349ed;
+  color: #d960ef;
+}
+.portlet.box.purple-seance > .portlet-title > .actions .btn-default > i {
+  color: #dc6ef0;
+}
+.portlet.box.purple-seance > .portlet-title > .actions .btn-default:hover, .portlet.box.purple-seance > .portlet-title > .actions .btn-default:focus, .portlet.box.purple-seance > .portlet-title > .actions .btn-default:active, .portlet.box.purple-seance > .portlet-title > .actions .btn-default.active {
+  border: 1px solid #de77f1;
+  color: #e48ef4;
+}
+
+/* Statistic Block */
+.dashboard-stat.purple-seance {
+  background-color: #9A12B3;
+}
+.dashboard-stat.purple-seance.dashboard-stat-light:hover {
+  background-color: #8a10a0;
+}
+.dashboard-stat.purple-seance .visual > i {
+  color: #FFFFFF;
+  opacity: 0.1;
+  filter: alpha(opacity=10);
+}
+.dashboard-stat.purple-seance .details .number {
+  color: #FFFFFF;
+}
+.dashboard-stat.purple-seance .details .desc {
+  color: #FFFFFF;
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+.dashboard-stat.purple-seance .more {
+  color: #FFFFFF;
+  background-color: #8a10a0;
+}
+
+/* General Element */
+.bg-purple-seance {
+  border-color: #9A12B3 !important;
+  background-image: none !important;
+  background-color: #9A12B3 !important;
+  color: #FFFFFF !important;
+}
+
+/* General Text & Icon Font Colors */
+.font-purple-seance {
+  color: #9A12B3 !important;
+}
+
+.progress-bar.purple-seance {
+  background: #9A12B3 !important;
+  color: #FFFFFF !important;
+}
+
+/***
+Purple Intense
+***/
+/* Button */
+.purple-intense.btn {
+  color: #FFFFFF;
+  background-color: #8775a7;
+}
+.purple-intense.btn:hover, .purple-intense.btn:focus, .purple-intense.btn:active, .purple-intense.btn.active {
+  color: #FFFFFF;
+  background-color: #746198;
+}
+.open .purple-intense.btn.dropdown-toggle {
+  color: #FFFFFF;
+  background-color: #746198;
+}
+.purple-intense.btn:active, .purple-intense.btn.active {
+  background-image: none;
+  background-color: #685788;
+}
+.purple-intense.btn:active:hover, .purple-intense.btn.active:hover {
+  background-color: #6d5b8e;
+}
+.open .purple-intense.btn.dropdown-toggle {
+  background-image: none;
+}
+.purple-intense.btn.disabled, .purple-intense.btn.disabled:hover, .purple-intense.btn.disabled:focus, .purple-intense.btn.disabled:active, .purple-intense.btn.disabled.active, .purple-intense.btn[disabled], .purple-intense.btn[disabled]:hover, .purple-intense.btn[disabled]:focus, .purple-intense.btn[disabled]:active, .purple-intense.btn[disabled].active, fieldset[disabled] .purple-intense.btn, fieldset[disabled] .purple-intense.btn:hover, fieldset[disabled] .purple-intense.btn:focus, fieldset[disabled] .purple-intense.btn:active, fieldset[disabled] .purple-intense.btn.active {
+  background-color: #8775a7;
+}
+.purple-intense.btn .badge {
+  color: #8775a7;
+  background-color: #FFFFFF;
+}
+
+/* Button Strip */
+.btn.purple-intense-stripe {
+  border-left: 3px solid #8775a7;
+}
+
+/* Portlet */
+.portlet > .portlet-body.purple-intense,
+.portlet.purple-intense {
+  background-color: #8775a7;
+}
+
+.portlet.solid.purple-intense > .portlet-title,
+.portlet.solid.purple-intense > .portlet-body {
+  border: 0;
+  color: #FFFFFF;
+}
+.portlet.solid.purple-intense > .portlet-title > .caption {
+  font-weight: 400;
+}
+.portlet.solid.purple-intense > .portlet-title > .caption > i {
+  color: #FFFFFF;
+}
+.portlet.solid.purple-intense > .portlet-title > .tools > a.remove {
+  background-image: url(../img/portlet-remove-icon-white.png);
+}
+.portlet.solid.purple-intense > .portlet-title > .tools > a.config {
+  background-image: url(../img/portlet-config-icon-white.png);
+}
+.portlet.solid.purple-intense > .portlet-title > .tools > a.reload {
+  background-image: url(../img/portlet-reload-icon-white.png);
+}
+.portlet.solid.purple-intense > .portlet-title > .tools > a.expand {
+  background-image: url(../img/portlet-expand-icon-white.png);
+}
+.portlet.solid.purple-intense > .portlet-title > .tools > a.collapse {
+  background-image: url(../img/portlet-collapse-icon-white.png);
+}
+.portlet.solid.purple-intense > .portlet-title > .tools > a.fullscreen {
+  color: #fdfdfd;
+}
+
+.portlet.box.purple-intense {
+  border: 1px solid #a294bb;
+  border-top: 0;
+}
+.portlet.box.purple-intense > .portlet-title {
+  background-color: #8775a7;
+}
+.portlet.box.purple-intense > .portlet-title > .caption {
+  color: #FFFFFF;
+}
+.portlet.box.purple-intense > .portlet-title > .caption > i {
+  color: #FFFFFF;
+}
+.portlet.box.purple-intense > .portlet-title > .actions .btn-default {
+  background: transparent !important;
+  background-color: transparent !important;
+  border: 1px solid #c3bad3;
+  color: #d0c9dd;
+}
+.portlet.box.purple-intense > .portlet-title > .actions .btn-default > i {
+  color: #d8d2e3;
+}
+.portlet.box.purple-intense > .portlet-title > .actions .btn-default:hover, .portlet.box.purple-intense > .portlet-title > .actions .btn-default:focus, .portlet.box.purple-intense > .portlet-title > .actions .btn-default:active, .portlet.box.purple-intense > .portlet-title > .actions .btn-default.active {
+  border: 1px solid #ded9e7;
+  color: #ebe8f0;
+}
+
+/* Statistic Block */
+.dashboard-stat.purple-intense {
+  background-color: #8775a7;
+}
+.dashboard-stat.purple-intense.dashboard-stat-light:hover {
+  background-color: #7c699f;
+}
+.dashboard-stat.purple-intense .visual > i {
+  color: #FFFFFF;
+  opacity: 0.1;
+  filter: alpha(opacity=10);
+}
+.dashboard-stat.purple-intense .details .number {
+  color: #FFFFFF;
+}
+.dashboard-stat.purple-intense .details .desc {
+  color: #FFFFFF;
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+.dashboard-stat.purple-intense .more {
+  color: #FFFFFF;
+  background-color: #7c699f;
+}
+
+/* General Element */
+.bg-purple-intense {
+  border-color: #8775a7 !important;
+  background-image: none !important;
+  background-color: #8775a7 !important;
+  color: #FFFFFF !important;
+}
+
+/* General Text & Icon Font Colors */
+.font-purple-intense {
+  color: #8775a7 !important;
+}
+
+.progress-bar.purple-intense {
+  background: #8775a7 !important;
+  color: #FFFFFF !important;
+}
+
+/***
+Purple Sharp
+***/
+/* Button */
+.purple-sharp.btn {
+  color: #FFFFFF;
+  background-color: #796799;
+}
+.purple-sharp.btn:hover, .purple-sharp.btn:focus, .purple-sharp.btn:active, .purple-sharp.btn.active {
+  color: #FFFFFF;
+  background-color: #685884;
+}
+.open .purple-sharp.btn.dropdown-toggle {
+  color: #FFFFFF;
+  background-color: #685884;
+}
+.purple-sharp.btn:active, .purple-sharp.btn.active {
+  background-image: none;
+  background-color: #5c4e75;
+}
+.purple-sharp.btn:active:hover, .purple-sharp.btn.active:hover {
+  background-color: #61527b;
+}
+.open .purple-sharp.btn.dropdown-toggle {
+  background-image: none;
+}
+.purple-sharp.btn.disabled, .purple-sharp.btn.disabled:hover, .purple-sharp.btn.disabled:focus, .purple-sharp.btn.disabled:active, .purple-sharp.btn.disabled.active, .purple-sharp.btn[disabled], .purple-sharp.btn[disabled]:hover, .purple-sharp.btn[disabled]:focus, .purple-sharp.btn[disabled]:active, .purple-sharp.btn[disabled].active, fieldset[disabled] .purple-sharp.btn, fieldset[disabled] .purple-sharp.btn:hover, fieldset[disabled] .purple-sharp.btn:focus, fieldset[disabled] .purple-sharp.btn:active, fieldset[disabled] .purple-sharp.btn.active {
+  background-color: #796799;
+}
+.purple-sharp.btn .badge {
+  color: #796799;
+  background-color: #FFFFFF;
+}
+
+/* Button Strip */
+.btn.purple-sharp-stripe {
+  border-left: 3px solid #796799;
+}
+
+/* Portlet */
+.portlet > .portlet-body.purple-sharp,
+.portlet.purple-sharp {
+  background-color: #796799;
+}
+
+.portlet.solid.purple-sharp > .portlet-title,
+.portlet.solid.purple-sharp > .portlet-body {
+  border: 0;
+  color: #FFFFFF;
+}
+.portlet.solid.purple-sharp > .portlet-title > .caption {
+  font-weight: 400;
+}
+.portlet.solid.purple-sharp > .portlet-title > .caption > i {
+  color: #FFFFFF;
+}
+.portlet.solid.purple-sharp > .portlet-title > .tools > a.remove {
+  background-image: url(../img/portlet-remove-icon-white.png);
+}
+.portlet.solid.purple-sharp > .portlet-title > .tools > a.config {
+  background-image: url(../img/portlet-config-icon-white.png);
+}
+.portlet.solid.purple-sharp > .portlet-title > .tools > a.reload {
+  background-image: url(../img/portlet-reload-icon-white.png);
+}
+.portlet.solid.purple-sharp > .portlet-title > .tools > a.expand {
+  background-image: url(../img/portlet-expand-icon-white.png);
+}
+.portlet.solid.purple-sharp > .portlet-title > .tools > a.collapse {
+  background-image: url(../img/portlet-collapse-icon-white.png);
+}
+.portlet.solid.purple-sharp > .portlet-title > .tools > a.fullscreen {
+  color: #fdfdfd;
+}
+
+.portlet.box.purple-sharp {
+  border: 1px solid #9486ad;
+  border-top: 0;
+}
+.portlet.box.purple-sharp > .portlet-title {
+  background-color: #796799;
+}
+.portlet.box.purple-sharp > .portlet-title > .caption {
+  color: #FFFFFF;
+}
+.portlet.box.purple-sharp > .portlet-title > .caption > i {
+  color: #FFFFFF;
+}
+.portlet.box.purple-sharp > .portlet-title > .actions .btn-default {
+  background: transparent !important;
+  background-color: transparent !important;
+  border: 1px solid #b4aac6;
+  color: #c2b9d0;
+}
+.portlet.box.purple-sharp > .portlet-title > .actions .btn-default > i {
+  color: #cac3d6;
+}
+.portlet.box.purple-sharp > .portlet-title > .actions .btn-default:hover, .portlet.box.purple-sharp > .portlet-title > .actions .btn-default:focus, .portlet.box.purple-sharp > .portlet-title > .actions .btn-default:active, .portlet.box.purple-sharp > .portlet-title > .actions .btn-default.active {
+  border: 1px solid #cfc9db;
+  color: #ddd8e5;
+}
+
+/* Statistic Block */
+.dashboard-stat.purple-sharp {
+  background-color: #796799;
+}
+.dashboard-stat.purple-sharp.dashboard-stat-light:hover {
+  background-color: #6f5f8d;
+}
+.dashboard-stat.purple-sharp .visual > i {
+  color: #FFFFFF;
+  opacity: 0.1;
+  filter: alpha(opacity=10);
+}
+.dashboard-stat.purple-sharp .details .number {
+  color: #FFFFFF;
+}
+.dashboard-stat.purple-sharp .details .desc {
+  color: #FFFFFF;
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+.dashboard-stat.purple-sharp .more {
+  color: #FFFFFF;
+  background-color: #6f5f8d;
+}
+
+/* General Element */
+.bg-purple-sharp {
+  border-color: #796799 !important;
+  background-image: none !important;
+  background-color: #796799 !important;
+  color: #FFFFFF !important;
+}
+
+/* General Text & Icon Font Colors */
+.font-purple-sharp {
+  color: #796799 !important;
+}
+
+.progress-bar.purple-sharp {
+  background: #796799 !important;
+  color: #FFFFFF !important;
+}
+
+/***
+Purple Soft
+***/
+/* Button */
+.purple-soft.btn {
+  color: #FFFFFF;
+  background-color: #8877a9;
+}
+.purple-soft.btn:hover, .purple-soft.btn:focus, .purple-soft.btn:active, .purple-soft.btn.active {
+  color: #FFFFFF;
+  background-color: #75629b;
+}
+.open .purple-soft.btn.dropdown-toggle {
+  color: #FFFFFF;
+  background-color: #75629b;
+}
+.purple-soft.btn:active, .purple-soft.btn.active {
+  background-image: none;
+  background-color: #69588b;
+}
+.purple-soft.btn:active:hover, .purple-soft.btn.active:hover {
+  background-color: #6e5c91;
+}
+.open .purple-soft.btn.dropdown-toggle {
+  background-image: none;
+}
+.purple-soft.btn.disabled, .purple-soft.btn.disabled:hover, .purple-soft.btn.disabled:focus, .purple-soft.btn.disabled:active, .purple-soft.btn.disabled.active, .purple-soft.btn[disabled], .purple-soft.btn[disabled]:hover, .purple-soft.btn[disabled]:focus, .purple-soft.btn[disabled]:active, .purple-soft.btn[disabled].active, fieldset[disabled] .purple-soft.btn, fieldset[disabled] .purple-soft.btn:hover, fieldset[disabled] .purple-soft.btn:focus, fieldset[disabled] .purple-soft.btn:active, fieldset[disabled] .purple-soft.btn.active {
+  background-color: #8877a9;
+}
+.purple-soft.btn .badge {
+  color: #8877a9;
+  background-color: #FFFFFF;
+}
+
+/* Button Strip */
+.btn.purple-soft-stripe {
+  border-left: 3px solid #8877a9;
+}
+
+/* Portlet */
+.portlet > .portlet-body.purple-soft,
+.portlet.purple-soft {
+  background-color: #8877a9;
+}
+
+.portlet.solid.purple-soft > .portlet-title,
+.portlet.solid.purple-soft > .portlet-body {
+  border: 0;
+  color: #FFFFFF;
+}
+.portlet.solid.purple-soft > .portlet-title > .caption {
+  font-weight: 400;
+}
+.portlet.solid.purple-soft > .portlet-title > .caption > i {
+  color: #FFFFFF;
+}
+.portlet.solid.purple-soft > .portlet-title > .tools > a.remove {
+  background-image: url(../img/portlet-remove-icon-white.png);
+}
+.portlet.solid.purple-soft > .portlet-title > .tools > a.config {
+  background-image: url(../img/portlet-config-icon-white.png);
+}
+.portlet.solid.purple-soft > .portlet-title > .tools > a.reload {
+  background-image: url(../img/portlet-reload-icon-white.png);
+}
+.portlet.solid.purple-soft > .portlet-title > .tools > a.expand {
+  background-image: url(../img/portlet-expand-icon-white.png);
+}
+.portlet.solid.purple-soft > .portlet-title > .tools > a.collapse {
+  background-image: url(../img/portlet-collapse-icon-white.png);
+}
+.portlet.solid.purple-soft > .portlet-title > .tools > a.fullscreen {
+  color: #fdfdfd;
+}
+
+.portlet.box.purple-soft {
+  border: 1px solid #a396bd;
+  border-top: 0;
+}
+.portlet.box.purple-soft > .portlet-title {
+  background-color: #8877a9;
+}
+.portlet.box.purple-soft > .portlet-title > .caption {
+  color: #FFFFFF;
+}
+.portlet.box.purple-soft > .portlet-title > .caption > i {
+  color: #FFFFFF;
+}
+.portlet.box.purple-soft > .portlet-title > .actions .btn-default {
+  background: transparent !important;
+  background-color: transparent !important;
+  border: 1px solid #c4bcd4;
+  color: #d2cbde;
+}
+.portlet.box.purple-soft > .portlet-title > .actions .btn-default > i {
+  color: #dad5e4;
+}
+.portlet.box.purple-soft > .portlet-title > .actions .btn-default:hover, .portlet.box.purple-soft > .portlet-title > .actions .btn-default:focus, .portlet.box.purple-soft > .portlet-title > .actions .btn-default:active, .portlet.box.purple-soft > .portlet-title > .actions .btn-default.active {
+  border: 1px solid #dfdbe8;
+  color: #edebf2;
+}
+
+/* Statistic Block */
+.dashboard-stat.purple-soft {
+  background-color: #8877a9;
+}
+.dashboard-stat.purple-soft.dashboard-stat-light:hover {
+  background-color: #7d6ba1;
+}
+.dashboard-stat.purple-soft .visual > i {
+  color: #FFFFFF;
+  opacity: 0.1;
+  filter: alpha(opacity=10);
+}
+.dashboard-stat.purple-soft .details .number {
+  color: #FFFFFF;
+}
+.dashboard-stat.purple-soft .details .desc {
+  color: #FFFFFF;
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+.dashboard-stat.purple-soft .more {
+  color: #FFFFFF;
+  background-color: #7d6ba1;
+}
+
+/* General Element */
+.bg-purple-soft {
+  border-color: #8877a9 !important;
+  background-image: none !important;
+  background-color: #8877a9 !important;
+  color: #FFFFFF !important;
+}
+
+/* General Text & Icon Font Colors */
+.font-purple-soft {
+  color: #8877a9 !important;
+}
+
+.progress-bar.purple-soft {
+  background: #8877a9 !important;
+  color: #FFFFFF !important;
+}
+
+/***
+Transparent Button
+***/
+.btn-transparent.btn {
+  background: transparent;
+  color: #888;
+}
